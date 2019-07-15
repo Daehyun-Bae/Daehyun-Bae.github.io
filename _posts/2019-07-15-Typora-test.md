@@ -25,3 +25,6 @@ $x_1 = 2$
 |   C    |      |      |      |
 
 [Link to Hyeseon Ko](https://hyeseonko.github.io)
+
+[Link to Me](https://daehyun-bae.github.io/)
+
