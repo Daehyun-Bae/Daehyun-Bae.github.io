@@ -114,11 +114,12 @@ Pre-trained on ImageNet
 #### Localization
 
 * GoogLeNet: 56.40(CAM) --> 53.28 (Top-1)
+
 * VGG: 57.20(CAM) --> 54.17 (Top-1)
 
 * CAM based approach: Find small part of object
 
-  ![Compare with CAM](https://daehyun-bae.github.io/img/_post/191005_acol_0.png)
+  ![Compare with CAM](https://daehyun-bae.github.io/img/post/191005_acol_0.png)
 
 #### Ablatio study
 
