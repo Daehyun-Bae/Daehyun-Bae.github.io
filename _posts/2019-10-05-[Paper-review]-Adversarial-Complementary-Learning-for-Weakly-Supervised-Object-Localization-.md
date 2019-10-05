@@ -47,11 +47,11 @@ Ours: select feature maps of last conv-layer directly
 
 S: output feature maps from FCN
 
-Add 1$\times$1 Conv layer and fed into GAP layer followed by a Softmax layer
+Add 1$$\times$$1 Conv layer and fed into GAP layer followed by a Softmax layer
 
 Number of channels: K --> C (No. of classes)
 
-Mathematically same with CAM to calculate $y_c$ 
+Mathematically same with CAM to calculate $$y_c$$ 
 
 Also similar localization map quality
 
@@ -69,19 +69,19 @@ Identify the discriminative regions by conducting a threshold
 
 ​	Update feature map **S**
 
-​	Extract localization map $M^A$ 
+​	Extract localization map $$M^A$$
 
 ​	Discover the discriminative region **R**
 
-​	Obtain erased feature map $\tilde{S}$
+​	Obtain erased feature map $$\tilde{S}$$
 
-​	Extract localization map $M^B$
+​	Extract localization map $$M^B$$
 
-​	Obtain fused map $\tilde{M}^{fuse}$
+​	Obtain fused map $$\tilde{M}^{fuse}$$
 
 ​	Update learning parameters
 
-Use erasing threshold $\delta \in \{0.5, 0.9\}$ --> 0.6 is best score
+Use erasing threshold $$\delta \in \{0.5, 0.9\}$$ --> 0.6 is best score
 
 ## 4. Experiments
 
@@ -92,13 +92,13 @@ Training dataset: ImageNet (ILSVRC 2016), CUB-200-2011
 Backbone network: VGG16 / GoogLeNet
 	VGG16: Remove the layers after conv5-3
 	GoogleNet: Remove the layers after last inception block
-	Add 2 convolution layers (3$\times$3, 1$\times$1)
+	Add 2 convolution layers (3$$\times$$3, 1$$\times$$1)
 
 Use Global Average Pooling layer
 
 Pre-trained on ImageNet
 
-256$\times$256 --> random crop (224$\times$224)
+256$$\times$$256 --> random crop (224$$\times$$224)
 
 10 crop technique is used for classification evaluation
 
