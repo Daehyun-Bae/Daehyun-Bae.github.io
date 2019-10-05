@@ -118,7 +118,7 @@ Pre-trained on ImageNet
 
 * CAM based approach: Find small part of object
 
-  ![Compare with CAM](https://Daehyun-Bae.github.io/img/191005_acol_0.png)
+  ![Compare with CAM](https://Daehyun-Bae.github.io/img/_post/191005_acol_0.png)
 
 #### Ablatio study
 
