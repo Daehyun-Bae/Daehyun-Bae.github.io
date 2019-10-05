@@ -120,9 +120,7 @@ Pre-trained on ImageNet
 
   ![1570283809974](C:\Users\DH\AppData\Roaming\Typora\typora-user-images\1570283809974.png)
 
-#### Ablation Study
-
-##### $\delta$ study
+#### Ablatio study
 
 * 0.5 ~ 0.9 --> 0.6 (best performance)
 * Classifier B successfully works with Classifier A
