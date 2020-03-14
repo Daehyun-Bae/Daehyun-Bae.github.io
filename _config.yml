@@ -36,8 +36,8 @@ kramdown:
 owner:
   name: Daehyun Bae
   avatar: leonids-logo.png
-  job: "Visual Computing Lab @ Sungkyunkwan University"
-  bio: "Computer vision researcher"
+  job: "Computer vision researcher"
+  bio: "Visual Computing Lab @ Sungkyunkwan University"
   email: dhbae@skku.edu
   disqus-shortname:
   twitter: #username
