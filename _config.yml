@@ -5,7 +5,7 @@ remote_theme : renyuanz/leonids
 ####################################
 #
 title: Daehyun Bae's Blog
-email: noahark0628@gmail.com
+email: dhbae@skku.edu
 description: A simple and awesome blog theme powered by jekyll.
 url: "https://Daehyun-Bae.github.io" # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
@@ -36,9 +36,9 @@ kramdown:
 owner:
   name: Daehyun Bae
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email: noahark0628@gmail.com
+  job: "Visual Computing Lab @ Sungkyunkwan University"
+  bio: "Computer vision researcher"
+  email: dhbae@skku.edu
   disqus-shortname:
   twitter: #username
   facebook: #username
