@@ -28,11 +28,11 @@
   * 이미지와 레이블이 $$(x, y)$$와 같이 주어졌을 때, $$y$$를 자기자신을 제외한 임의의 다른 레이블(Complementary label) $$\overline{y}$$로 다시 할당 해주는 작업
 * 기존 PL에서의 CE(Cross Entropy) Loss가 다음과 같다면,
 
-![Positive Learning Loss](https://daehyun-bae.github.io/img/post/200305_nlnl_0.png)
+![Positive Learning Loss](https://daehyun-bae.github.io/img/post/200305_nlnl_0.PNG)
 
 * NL에서의 CE Loss는 다음과 같다.
 
-![Negative Learning Loss](https://daehyun-bae.github.io/img/post/200305_nlnl_1.png)
+![Negative Learning Loss](https://daehyun-bae.github.io/img/post/200305_nlnl_1.PNG)
 
 * NL에서는 $$x$$의 레이블이 $$\overline{y}$$ 가 아니라고 주입식 학습(?)을 시켜야하기 때문에 $$(1-p_k)$$의 형태로 바뀜 ($$p_k$$가 낮아져야 전체 Loss 값이 낮아짐)
 
