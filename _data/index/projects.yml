@@ -1,4 +1,4 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: Daehyun-Bae
+  descr: "Hi, my name is Daehyun Bae. My main research topic is computer vision including object detection, plenopitc imaging technique and person re-identificaion. This is my personal blog for summarizing paper and describing programming technique."
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+  github: https://github.com/Daehyun-Bae

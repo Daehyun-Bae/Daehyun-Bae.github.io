@@ -1,8 +1,11 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: Sungkyunkwan Uviversity (Ph.D.)
+  link: http://www.skku.edu/
+  date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Sungkyunkwan Uviversity (M.S.)
+  link: http://www.skku.edu/
+  date: 2018 - 2020
+
+- name: Sungkyunkwan Uviversity (B.S.)
+  link: http://www.skku.edu/
+  date: 2011 - 2018
