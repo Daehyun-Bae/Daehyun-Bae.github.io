@@ -1,11 +1,15 @@
-- name: Sungkyunkwan Uviversity (Ph.D.)
+- name: Sungkyunkwan University (Ph.D.)
   link: http://www.skku.edu/
   date: 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
 
-- name: Sungkyunkwan Uviversity (M.S.)
+- name: Sungkyunkwan University (M.S.)
   link: http://www.skku.edu/
   date: 2018 - 2020
 
-- name: Sungkyunkwan Uviversity (B.S.)
+- name: The Hong Kong University of Science and Technology (Exchange Student)
+  link: http://www.ust.hk/
+  date: Fall 2016
+
+- name: Sungkyunkwan University (B.S.)
   link: http://www.skku.edu/
   date: 2011 - 2018
