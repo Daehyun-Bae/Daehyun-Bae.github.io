@@ -112,7 +112,9 @@ a.read-more {
 }
 
 #page {
-  padding-bottom: 50px;
+  max-width: 900px;
+  margin: auto;
+  //padding-bottom: 50px;
   min-height: 70vh;
   .page-header {
     margin: 0 auto 50px;
