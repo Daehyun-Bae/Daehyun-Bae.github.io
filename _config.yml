@@ -37,7 +37,7 @@ owner:
   name: Daehyun Bae
   avatar: leonids-logo.png
   job: "Computer vision researcher"
-  bio: "Visual Computing Lab @ Sungkyunkwan University"
+  bio: #bio
   email: dhbae@skku.edu
   disqus-shortname:
   twitter: #username
