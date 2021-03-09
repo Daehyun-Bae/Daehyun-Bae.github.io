@@ -1,3 +1,13 @@
+---
+layout: post
+title:  Adversarial Complementary Learning for Weakly Supervised Object Localization
+date:   2019-10-15
+categories: [Computer vision] [Paper review]
+comments: false
+---
+
+
+
 # [2018 CVPR] Adversarial Complementary Learning for Weakly Supervised Object Localization (Self-erasing)
 
 ## 0. Abstract
