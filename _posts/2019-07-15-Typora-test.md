@@ -2,7 +2,7 @@
 layout: post
 title:  tutorial
 date:   2019-07-15
-categories: [Sample] [Paper review]
+categories: [Sample, test]
 comments: false
 ---
 
