@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Adversarial Complementary Learning for Weakly Supervised Object Localization
+excerpt: Adversarial Complementary Learning for Weakly Supervised Object Localization
 date:   2019-10-15
 categories: [Computer vision, Paper review]
 comments: false

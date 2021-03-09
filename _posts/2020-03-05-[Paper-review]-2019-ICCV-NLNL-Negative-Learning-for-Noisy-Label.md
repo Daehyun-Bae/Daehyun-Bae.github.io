@@ -1,3 +1,11 @@
+---
+layout: post
+title:  NLNL: Negative Learning for Noisy Label
+excerpt: NLNL: Negative Learning for Noisy Label
+date:   2020-03-05
+categories: [Computer vision, Paper review]
+---
+
 # [2019 ICCV] NLNL: Negative Learning for Noisy Label
 
 ## 0.Abstract
