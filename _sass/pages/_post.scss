@@ -96,6 +96,18 @@ a.read-more {
   .post-header {
     margin: 0 auto 50px;
   }
+  ul{
+    list-style: none;
+    }
+  ul li::before {
+    content: "\276f";
+    color: #93329e;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-right: 1em;
+    margin-left: -1em;
+  }
 }
 
 #post h1 {
