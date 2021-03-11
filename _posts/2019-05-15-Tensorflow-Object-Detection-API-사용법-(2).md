@@ -183,7 +183,7 @@ train_input_reader: {
 ```
 
 * `input_path`: 학습 데이터 경로
-* label_map_path: 학습할 데이터의 label 목록 파일의 경로
+* `label_map_path`: 학습할 데이터의 label 목록 파일의 경로
 
 TFrecord라는 데이터 타입을 사용한다. 이 TFrecord를 생성하는 실습은 다음 포스팅에서 정리해야겠다. 
 
@@ -206,7 +206,7 @@ python3 train.py
 
 학습이 끝난 후 실제로 모델을 실행시켜 학습이 잘 되었는지 확인을 해보자.
 
-이를 위해서는 inference graph라는 것을 추출하는 과정이 필요하다.
+이를 위해서는 `inference graph`라는 것을 추출하는 과정이 필요하다.
 
 graph로 표현되어 있는 tensorflow model에 학습에 사용했던 checkpoint 파일의 weight를 덮어씌워 고정시키는 작업이라고 생각하면 된다.
 
