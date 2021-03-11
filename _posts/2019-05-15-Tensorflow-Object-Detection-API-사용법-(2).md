@@ -54,7 +54,7 @@ MSCOCO 데이터셋이 워낙 많은 클래스를 갖고 있기 때문에 웬만
 
 실습에 사용되는 파일은 다음과 같다.
 
-![intro-image](https://daehyun-bae.github.io\img\post\210311-tf-obj-det-api-2\train-file.jpg)
+![intro-image](https://daehyun-bae.github.io\img\post\210311-tf-obj-det-api-2\train-file.png)
 
 `train.py` 코드를 통해 추가 학습을 진행 할 수 있다. 마찬가지로 공식 페이지에서 제공하는 코드를 약간 변형하여 사용하였다.
 
