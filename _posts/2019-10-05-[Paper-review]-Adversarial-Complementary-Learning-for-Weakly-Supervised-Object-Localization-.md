@@ -130,12 +130,14 @@ Pre-trained on ImageNet
 
 * CAM based approach: Find small part of object
 
-  ![Compare with CAM](https://daehyun-bae.github.io/img/post/191005_acol_0.png)
+![Compare with CAM](https://daehyun-bae.github.io/img/post/191005_acol_0.png)
 
 #### Ablatio study
 
 * 0.5 ~ 0.9 --> 0.6 (best performance)
+
 * Classifier B successfully works with Classifier A
+
 * Well designed thresholding method can improve the performance
 
 ##### Third classifier C
