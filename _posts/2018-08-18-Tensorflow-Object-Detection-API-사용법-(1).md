@@ -4,7 +4,7 @@ title:  Tensorflow object detection API 사용법(1)
 excerpt: Tensorflow object detection API tutorial guide
 date:   2018-08-18
 categories: [Tensorflow]
-comments: false
+comments: true
 ---
 
 # Object Detection API 사용하기(1)
@@ -13,13 +13,13 @@ comments: false
 
 Object dection 실습 조교를 맡게 되었다.
 
-실습 여건 상 모델을 처음부터 구현하고 학습시킬 시간이 부족하기 때문에 수강하시는 분들이 object detection model을 실행시켜보기만 하더라도 나중에 유용하게 사용하실 수 있을 것 같아서 Tensorflow에서 제공하는 object detection API 사용방법을 준비하였다. 
+실습 여건 상 모델을 처음부터 구현하고 학습시킬 시간이 부족하기 때문에 수강하시는 분들이 object detection model을 실행시켜보기만 하더라도 교육 후 각자 원하는 방식대로 사용하실 수 있을 것 같아서 Tensorflow에서 제공하는 object detection API 사용방법을 준비하였다. 
 
-실습 준비를 하면서 많은 삽질을 해서, 혹시 Object detection API를 사용하고자 하는 분들에게 조금이나마 도움이 되었으면하는 마음으로 기록
+실습 준비를 하면서 많은 삽질을 해서, 혹시 Object detection API를 사용하고자 하는 분들에게 조금이나마 도움이 되었으면하는 마음으로 기록하였다.
 
 *본 포스트는 [2018년 8월 기준으로 작성된 글](https://blog.naver.com/bdh0727/221341342386)을 이전하며 작성하였습니다. 현재 버전과는 다소 차이가 있을 수 있습니다.*
 
-## 환경 구성
+### 환경 구성
 
 ----
 
@@ -38,14 +38,16 @@ Object dection 실습 조교를 맡게 되었다.
 실습에 사용했던 코드는 공식 제공 코드를 쉽게 실행시킬 수 있도록 약간 변형하였다.
 
 *혹시 코드가 필요하신 분들은 아래 깃허브를 참고하시면 됩니다.*
+
  [Github-Object_Detection_API_utils](https://github.com/Daehyun-Bae/Object_Detection_API_utils)
 
 *Pre-trained model이나 실습에 사용한 dataset 등은 아래 구글 드라이브에 올려두었습니다.*
+
 [Google drive-Object_Detection_API_dataset](https://drive.google.com/drive/folders/1mwz5Lk-CfPM7q4Yb3X8jThlZzUYsH9by?usp=sharing)
 
 
 
-## 0. 준비 과정
+### 0. 준비 과정
 
 ----
 
@@ -142,7 +144,7 @@ python3 object_detection_run.py
 
 
 
-### 실행 결과
+### 2. 실행 결과
 
 ----
 
@@ -152,10 +154,10 @@ inference 코드를 실행하면 지정했던 경로에 테스트 결과 이미�
 
 ![example output](https://daehyun-bae.github.io\img\post\210311-tf-obj-det-api-1\test-output.png)
 
+----
 
+#### Reference
 
-> Reference
->
 > [Tensorflow Object Detection API Home](https://github.com/tensorflow/models/tree/master/research/object_detection)
 >
 > [Tensorflow Object Detection API Install Guide](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
