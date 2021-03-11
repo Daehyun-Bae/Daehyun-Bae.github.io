@@ -107,6 +107,11 @@ a.read-more {
     width: 1em;
     margin-left: -1em;
   }
+  img + em{
+    display: block;
+    font-size: 0.8em;
+    color: #525252;
+  }
 }
 
 #post h1 {

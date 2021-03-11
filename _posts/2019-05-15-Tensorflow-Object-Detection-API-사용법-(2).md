@@ -39,4 +39,6 @@ MSCOCO 데이터셋이 워낙 많은 클래스를 갖고 있기 때문에 웬만
 
 이 때 사용자가 원하는 데이터셋에 맞게 추가 학습을 진행하는 것이 fine-tuning이다.
 
-![intro-image](https://daehyun-bae.github.io\img\post\210311-tf-obj-det-api-2\intro.jpg)*이 고양이가 무슨 고양인지 알고싶다!*
+![intro-image](https://daehyun-bae.github.io\img\post\210311-tf-obj-det-api-2\intro.jpg)
+*이 고양이가 무슨 고양인지 알고싶다!*
+
