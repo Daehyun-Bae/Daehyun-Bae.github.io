@@ -1,11 +1,13 @@
-```
+---
 layout: post
 title:  Tensorflow object detection API 사용법(2)
 excerpt: Tensorflow object detection API tutorial guide 2 - fine-tuning
 date:   2019-05-15
 categories: [Tensorflow]
 comments: true
-```
+---
+
+
 
 # Object Detection API 사용하기 (2): Fine-tunig
 
