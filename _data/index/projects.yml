@@ -1,4 +1,4 @@
-- name: Daehyun-Bae
-  descr: "Hi, my name is Daehyun Bae. My main research topic is computer vision including object detection, plenopitc imaging technique and person re-identificaion. This is my personal blog for summarizing paper and describing programming technique."
-  image: pong.png
+- name: Project Name
+  descr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta lectus blandit lorem pellentesque ultrices. Nam libero augue, iaculis eu leo sit amet, sodales faucibus arcu. Curabitur non pretium ex. Quisque convallis ante eget maximus cursus. Curabitur imperdiet faucibus eros accumsan semper. Praesent sed tincidunt ex. Proin luctus eget orci ut bibendum. Vivamus eu viverra metus. Etiam molestie odio ligula. Curabitur consequat mi neque, consectetur sodales est aliquet at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a massa eros. Aenean a tincidunt turpis. Quisque mattis vestibulum nibh nec pulvinar. Donec pharetra a nulla.
+  image: https://daehyun-bae.io/img/avatar.png
   github: https://github.com/Daehyun-Bae
