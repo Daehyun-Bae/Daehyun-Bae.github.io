@@ -3,7 +3,8 @@ layout: post
 title:  Tensorflow object detection API 사용법(1)
 excerpt: Tensorflow object detection API tutorial guide
 date:   2018-08-18
-categories: [Tensorflow]
+categories: [Development]
+tags: [Tensorflow]
 comments: true
 ---
 

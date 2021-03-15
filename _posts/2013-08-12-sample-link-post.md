@@ -4,6 +4,7 @@ title: "Sample Link Post"
 excerpt: "Try click on the link icon."
 categories: [sample]
 link: http://renyuanz.github.io
+tags: [Test tag]
 share: true
 ---
 
