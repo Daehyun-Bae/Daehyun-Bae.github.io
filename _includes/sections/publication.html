@@ -1,0 +1,21 @@
+<h1><span data-i18n="skills.my_skills">Publication</span></h1>
+<hr>
+
+{% for publication in site.data.index.publication %}
+    <div class="row">
+            <div class="col">
+                <p>
+                    <h5 style="margin: 0">{{ publication.name }}</h5>
+
+                    {{ publication.author }}
+                    <br>
+                    {{ publication.date }}
+                
+                    {% if publication.website %}
+                    <br>
+                    <a href="{{ publication.website }} "><i class="fa fa-fw fa-file"></i>paper</a>
+                    {% endif %}
+                <p>
+            </div>
+    </div>
+{% endfor %}

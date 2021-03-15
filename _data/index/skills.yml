@@ -2,5 +2,5 @@
 
 label: Skills
 id : cs
-aspects: Python, GitHub, Pytorch, Tensorflow, Docker, C++
-percentage: 90, 65, 85, 75, 60, 75
+aspects: Python, Git, Pytorch, Tensorflow, Docker, C++
+percentage: 90, 75, 85, 75, 70, 75

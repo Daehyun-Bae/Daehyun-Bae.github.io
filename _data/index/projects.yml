@@ -1,4 +1,19 @@
-- name: Project Name
-  descr: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porta lectus blandit lorem pellentesque ultrices. Nam libero augue, iaculis eu leo sit amet, sodales faucibus arcu. Curabitur non pretium ex. Quisque convallis ante eget maximus cursus. Curabitur imperdiet faucibus eros accumsan semper. Praesent sed tincidunt ex. Proin luctus eget orci ut bibendum. Vivamus eu viverra metus. Etiam molestie odio ligula. Curabitur consequat mi neque, consectetur sodales est aliquet at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce a massa eros. Aenean a tincidunt turpis. Quisque mattis vestibulum nibh nec pulvinar. Donec pharetra a nulla.
-  image: https://daehyun-bae.github.io/img/avatar.png
-  github: https://github.com/Daehyun-Bae
+- name: 영상 크라우드 소싱 지능형 관제 시스템 개발
+  date: 2018.08~2020.12, 경찰청
+  descr:
+    <ul>
+    <li> Mobile application for collecting dash cam videos & PC application for video analysis
+    <li> Implement video summarization algorithm
+    <li> Implement person search engine
+    </ul>
+  github:
+  video: https://youtu.be/ziEq0kGcOxI
+  
+- name: 플렌옵틱 이미지의 딥러닝 모델 기반 객체 추적 모델 적용
+  date: 2019.06~2019.11, ETRI
+  descr:
+    <ul>
+    <li> Reproduce <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Fast_Online_Object_Tracking_and_Segmentation_A_Unifying_Approach_CVPR_2019_paper.html">Siam-mask</a> in Tensorflow
+    <li> Port Tensorflow model to C++
+    </ul>
+  github:

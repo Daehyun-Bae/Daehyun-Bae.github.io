@@ -1,22 +1,24 @@
 <h1><span data-i18n="skills.my_skills">Projects</span></h1>
+<hr>
 
 {% for project in site.data.index.projects %}
     <div class="row">
             <div class="col">
-                <h2 style="margin: 0">{{ project.name }}</h2>
-                {% if project.image %}
                 <p>
-                    <img src="{{ project.image }}" style="max-height: 15em;">
-                </p>
-                {% endif %}
-                <p style="margin: 0">{{ project.descr }}</p>
+                    <h5 style="margin: 0">{{ project.name }}</h5>
 
-                {% if project.github %}
-                <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
-                {% endif %}
-                {% if project.website %}
-                <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
-                {% endif %}
+                    {{ project.date }}
+                    {% if project.video %}
+                        <a href="{{ project.video }} "><i class="fa fa-fw fa-youtube"></i>video</a>
+                    {% endif %}
+                    <p style="margin: 0">{{ project.descr }}</p>
+
+                    {% if project.github %}
+                        <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
+                    {% endif %}
+                    
+
+                </p>
 
             </div>
     </div>
