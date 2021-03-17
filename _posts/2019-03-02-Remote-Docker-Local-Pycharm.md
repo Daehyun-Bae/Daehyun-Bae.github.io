@@ -28,7 +28,7 @@ comments: true
 
 개발은 로컬에서 편리하게 하고 코드 실행은 서버의 리소스를 이용할 수 있다면 굉장히 편할 것이다.
 
-몇 번의 삽질 끝에 위의 과정을 더 간단하게 단축시키는 방법을 알아내었다.
+몇 번의 삽질 끝에 로컬에서 서버의 도커 컨테이너를 사용하여 위의 과정을 다음과 같이 단축시킬 수 있었다.
 
 1. 로컬(Pycharm)에서 코드 작성
 2. 로컬에서 코드 실행 &rarr; 실제로는 원격 서버의 도커 이미지에서 실행
@@ -53,7 +53,7 @@ comments: true
 
 
 
-### Remote Docker 세팅
+### Remote Docker 설정
 
 ---
 
@@ -118,7 +118,7 @@ Pycharm에서 `Ctrl+Alt+S` 또는 `File > Settings`로 환경설정에 들어간
 
 인터프리터 추가 화면에서 Docker를 선택하고 `Server`에는 앞서 설정한 도커 서버를 고른다. `Image name`에서 서버에 있는 도커 이미지 중 원하는 도커 이미지를 선택한다.
 
-이 때 추가로 `Path mapping` 설정을 해주어야하는데 이 부분이 헷갈려서 한참 헤맸었다. 옆의 폴더 모양의 아이콘을 눌러 *로컬 프로젝트 경로*와 *도커 컨테이너 내부의 프로젝트 경로*를 매핑해 준다.
+이 때 추가로 `Path mapping` 설정을 해주어야하는데 이 부분이 헷갈려서 한참 헤맸었다. 옆의 폴더 모양의 아이콘을 눌러 로컬 프로젝트 경로(*\<project root\>*)와 도커 컨테이너 내부의 프로젝트 경로(*/project2*)를 매핑해 준다.
 
 ![Interpreter setting](https://daehyun-bae.github.io\img\post\210317-pycharm-docker\intpre2.png)
 
@@ -149,7 +149,9 @@ Pycharm에서 `Ctrl+Alt+S` 또는 `File > Settings`로 환경설정에 들어간
 
 `Host path`: 서버에서 프로젝트가 저장되어 있는 경로, 앞서 Deployment에서 설정한 로컬 프로젝트와 동기화하는 경로를 입력해주면 된다.
 
-만약 프로젝트 폴더 외에 서버의 다른 경로에 있는 폴더와 연동하려면 같은 방법으로 추가할 수 있다. (예를 들어 서버에 저장되어있는 dataset 폴더)
+만약 프로젝트 폴더 외에 서버의 다른 경로에 있는 폴더와 연동하려면 같은 방법으로 추가할 수 있다. 
+
+(예를 들어 서버에 저장되어있는 dataset 폴더 등)
 
 ![Interpreter setting](https://daehyun-bae.github.io\img\post\210317-pycharm-docker\config3.png)
 
@@ -174,8 +176,6 @@ print(os.system('nvidia-smi'))
 
 
 
-
-
 ### Outro
 
 ---
@@ -194,10 +194,8 @@ print(os.system('nvidia-smi'))
 
 
 
-
-
 #### Reference
 
 > [https://youtrack.jetbrains.com/issue/PY-33489](https://youtrack.jetbrains.com/issue/PY-33489): 전반적인 설명 순서를 참고한 글
 >
-> [https://goodtogreate.tistory.com/entry/Pycharm으로-TensorFlow-원격-빌드하기](https://goodtogreate.tistory.com/entry/Pycharm으로-TensorFlow-원격-빌드하기): 원격 실행과 Deployment 사용 관련 정보를 검색하다가 발견한 글
+> [https://goodtogreate.tistory.com/entry/Pycharm으로-TensorFlow-원격-빌드하기](https://goodtogreate.tistory.com/entry/Pycharm으로-TensorFlow-원격-빌드하기): 원격 실행과 Deployment 사용 관련 정보
