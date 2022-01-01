@@ -98,9 +98,10 @@ a.read-more {
   }
   ul{
     list-style: none;
+    padding-inline-start: 20px;
     }
   ul li::before {
-    content: "\276f";
+    content: "-";
     color: #93329e;
     font-weight: bold;
     display: inline-block; 
@@ -123,17 +124,17 @@ a.read-more {
   margin: 0.5em 0 1em;
 }
 #post h2 {
-  margin: 4em 0 0.8em;
+  margin: 2em 0 0.8em;
   padding-bottom: 0.7em;
   border-bottom: 1px solid #ddd;
 }
 #post h3 {
-  margin: 4em 0 0.5em;
+  margin: 2em 0 0.5em;
   position: relative;
 }
 
 #post h4 {
-  margin: 4em 0 0.5em;
+  margin: 1.5em 0 0.5em;
   position: relative;
 }
 
