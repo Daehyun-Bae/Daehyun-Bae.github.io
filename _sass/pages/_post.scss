@@ -98,6 +98,7 @@ a.read-more {
   }
   ul{
     list-style: none;
+    line-height: 1.8em;
     padding-inline-start: 20px;
     }
   ul li::before {
@@ -125,7 +126,7 @@ a.read-more {
 }
 #post h2 {
   margin: 2em 0 0.8em;
-  padding-bottom: 0.7em;
+  padding-bottom: 0.3em;
   border-bottom: 1px solid #ddd;
 }
 #post h3 {
