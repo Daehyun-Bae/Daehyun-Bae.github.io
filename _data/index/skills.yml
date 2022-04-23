@@ -1,6 +1,6 @@
 # skills section data
 
-label: Skills
+label: Interests
 id : cs
-aspects: Python, Git, Pytorch, Tensorflow, Docker, C++
-percentage: 90, 75, 85, 75, 70, 75
+aspects: Solidity, React, Python, DeFi, TypeScript
+percentage: 90, 75, 85, 80, 80

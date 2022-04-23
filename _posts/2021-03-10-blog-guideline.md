@@ -69,7 +69,18 @@ comments: false
 
 [Resume](https://daehyun-bae.github.io/resume) : 데이터는 `_data/index`, 레이아웃은 `_includes/sections` 에서 수정
 
+* \<About> section: `_includes/sections/about.html`
+
 [Tags](https://daehyun-bae.github.io/tags) : [Categories](https://daehyun-bae.github.io/categories) 탭과 큰 차이점은 잘 모르겠지만 태그를 사용하고 싶으면 메타데이터 정보를 작성할 때 `tags: tag1 `와 같이 태그 정보를 입려해주면 된다.
+
+
+
+## Github blog 미리보기
+
+```shell
+# root_dir of github.io
+$ bundle exec jekyll serve
+```
 
 
 
@@ -89,7 +100,7 @@ Sidebar 크기 줄이기
 
 ### Posting
 
-네이버 블로그 포스팅 가져오기
+~~네이버 블로그 포스팅 가져오기~~
 
 ~~어느정도 익숙해지면 Sample post 삭제~~
 
